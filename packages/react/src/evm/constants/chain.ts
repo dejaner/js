@@ -17,6 +17,23 @@ const chain: Record<string, Chain> = {
     ],
   },
 
+  step: {
+    id: 1234,
+    name: "Step Network",
+    nativeCurrency: {
+      name: "FITFI",
+      symbol: "FITFI",
+      decimals: 18
+    },
+    rpcUrls: ["https://rpc.step.network/"],
+    blockExplorers: [
+      {
+        name: "Stepscan",
+        url: "https://stepscan.io",
+      },
+    ],
+  },
+
   goerli: {
     id: ChainId.Goerli,
     name: "Goerli",
